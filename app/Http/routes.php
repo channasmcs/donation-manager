@@ -11,14 +11,14 @@
 |
 */
 
-Route::get('/dashboard', 'DashboardController@home');
+//Route::get('/dashboard', 'DashboardController@home');
 Route::get('/', 'DashboardController@home');
 
 // Authentication routes...
-Route::get('auth/login', 'Auth\AuthController@getLogin');
-Route::post('auth/login', 'Auth\AuthController@postLogin');
-Route::get('auth/logout', 'Auth\AuthController@getLogout');
+// Route::get('auth/login', 'Auth\AuthController@getLogin');
+// Route::post('auth/login', 'Auth\AuthController@postLogin');
+// Route::get('auth/logout', 'Auth\AuthController@getLogout');
 
-// Registration routes...
-Route::get('auth/register', 'Auth\AuthController@getRegister');
-Route::post('auth/register', 'Auth\AuthController@postRegister');
+// // Registration routes...
+// Route::get('auth/register', 'Auth\AuthController@getRegister');
+// Route::post('auth/register', 'Auth\AuthController@postRegister');

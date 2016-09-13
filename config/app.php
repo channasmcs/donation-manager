@@ -91,7 +91,7 @@ return [
     |
     */
 
-    'key' => env('DONATION_87909-LANKA'),
+   'key' => env('APP_KEY', 'SomeRandomString'),
 
     'cipher' => 'AES-256-CBC',
 
